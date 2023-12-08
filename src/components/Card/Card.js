@@ -11,7 +11,7 @@ const Card = ({ movie }) => {
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
-        </div>
+        </div> 
     );
 };
 

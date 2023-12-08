@@ -34,7 +34,7 @@ class List extends React.Component {
     render() {
         console.log('Rendering data:', this.state.data);
         return (
-            <div className="row g-4">
+            <div className="row g-4"> 
                 {this.state.data.map(movie => {
                     console.log('Rendering movie:', movie);
                     return <Card key={movie.imdbID} movie={movie} />;
