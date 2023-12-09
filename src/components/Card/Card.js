@@ -8,7 +8,7 @@ const Card = ({ movie }) => {
                 <div className="card-body">
                     <h2 className="card-title">{movie.Title} ({movie.Year})</h2>
                     <p className="card-text">{movie.Type}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" className="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div> 

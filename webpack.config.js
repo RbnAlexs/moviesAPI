@@ -7,8 +7,6 @@ const htmlPlugin = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-  // ... other configurations
-
   module: {
     rules: [
       {
